@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myntra - Clone</title>
+    <link rel="stylesheet" href="style.hbs" />
+    <link rel="stylesheet" href="utils.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="flex space-between f-size uppercase">
+      <div class="left flex item-center">
+        <a href="#"><img class="img" src="./img/logo.png" alt="" /></a>
+
+        <ul class="flex">
+          <li class="item"><a href="/men">Mens</a></li>
+          <li class="item">Womens</li>
+          <li class="item">Kids</li>
+          <li class="item">Home & Living</li>
+          <li class="item">Beauty</li>
+          <li class="item">Studio</li>
+        </ul>
+      </div>
+      <div class="right flex item-center">
+        <input
+          type="text "
+          class="search item"
+          name=""
+          id=""
+          placeholder="Search"
+        />
+
+        <div class="profile item">
+          <a href="./profile">
+            <i class="fas fa-duotone fa-user" title="Profile"></i>
+          </a>
+        </div>
+        <div class="Wishlist item">
+          <a href="/wishlist">
+            <i class="fas fa-duotone fa-list" title="Wishlist"></i>
+          </a>
+        </div>
+        <div class="Bag item">
+          <a href="/bag">
+            <i class="fas fa-duotone fa-bag-shopping" title="Bag"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <hr style="border: 3px" />
+
+    <section class="section">
+      <section class="section1">
+        <a href="#">
+          <img
+            class="active section1-img"
+            style="width: 100%"
+            src="img/slide.png"
+            alt=""
+        /></a>
+        <a href="#"
+          ><img
+            class="section1-img hidden"
+            style="width: 100%"
+            src="img/slide4.png"
+            alt=""
+        /></a>
+        <a href="#"
+          ><img
+            class="section1-img hidden"
+            style="width: 100%"
+            src="img/slide2.png"
+            alt=""
+        /></a>
+        <a href="#"
+          ><img
+            class="section1-img hidden"
+            style="width: 100%"
+            src="img/slide3.png"
+            alt=""
+        /></a>
+        <a href="#"
+          ><img
+            class="section1-img hidden"
+            style="width: 100%"
+            src="img/slide1.png"
+            alt=""
+        /></a>
+      </section>
+
+      <h2 class="uppercase m">Biggest Deals On Top Brands</h2>
+
+      <section class="section2 text-align uppercase">
+        <div class="section2-item">
+          <div class="brand">
+            <a class="t-none" href="#">
+              <img class="item-img" src="img/item1.png" alt="U.S Polo assn" />
+              <p><img class="b-logo" src="img/b-logo/uspa.png" alt="" /></p>
+            </a>
+            <h3 class="off">30-60% Off</h3>
+          </div>
+          <div class="brand">
+            <a class="t-none" href="#">
+              <img class="item-img" src="img/item4.png" alt="" />
+              <p><img class="b-logo" src="img/b-logo/ucb.png" alt="" /></p>
+            </a>
+            <h3 class="off">40-70% Off</h3>
+          </div>
+        </div>
+        <div class="section2-item">
+          <div class="brand">
+            <a class="t-none" href="#">
+              <img class="item-img" src="img/item2.png" alt="" />
+              <p><img class="b-logo" src="img/b-logo/levis.png" alt="" /></p>
+            </a>
+            <h3 class="off">flat 30% Off</h3>
+          </div>
+          <div class="brand">
+            <a class="t-none" href="#">
+              <img class="item-img" src="img/item3.png" alt="" />
+              <p>
+                <img
+                  class="b-logo"
+                  src="img/b-logo/Tommy-Hilfiger.png"
+                  alt=""
+                />
+              </p>
+            </a>
+            <h3 class="off">flat 30% Off</h3>
+          </div>
+        </div>
+        <div class="section2-item">
+          <div class="brand">
+            <a class="t-none" href="#">
+              <img class="item-img" src="img/item3.png" alt="" />
+              <p>
+                <img
+                  class="b-logo"
+                  src="img/b-logo/Tommy-Hilfiger.png"
+                  alt=""
+                />
+              </p>
+            </a>
+            <h3 class="off">30-60% Off</h3>
+          </div>
+          <div class="brand">
+            <a class="t-none" href="#">
+              <img class="item-img" src="img/item2.png" alt="" />
+              <p><img class="b-logo" src="img/b-logo/levis.png" alt="" /></p>
+            </a>
+            <h3 class="off">20-40% Off</h3>
+          </div>
+        </div>
+        <div class="section2-item">
+          <div class="brand">
+            <a class="t-none" href="#">
+              <img class="item-img" src="img/item2.png" alt="Levis" />
+              <p><img class="b-logo" src="img/b-logo/ucb.png" alt="" /></p>
+            </a>
+            <h3 class="off">30-60% Off</h3>
+          </div>
+          <div class="brand">
+            <a class="t-none" href="#">
+              <img class="item-img" src="img/item1.png" alt="U.S Polo assn" />
+              <p><img class="b-logo" src="img/b-logo/uspa.png" alt="" /></p>
+            </a>
+            <h3 class="off">40-70% Off</h3>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <div class="row row-1">
+        <h5>ONLINE SHOPPING</h5>
+        <ul>
+          <li class="row-li"><a href="#">Men</a></li>
+          <li class="row-li"><a href="#">Women</a></li>
+          <li class="row-li"><a href="#">Kids</a></li>
+          <li class="row-li"><a href="#">Home & Living</a></li>
+          <li class="row-li"><a href="#">Beauty</a></li>
+          <li class="row-li"><a href="#">Gift Cards</a></li>
+          <li class="row-li"><a href="#">Myntra Insider</a></li>
+        </ul>
+      </div>
+      <div class="row row-2">
+        <h5>CUSTOMER POLICIES</h5>
+        <ul>
+          <li class="row-li"><a href="#">Contact Us</a></li>
+          <li class="row-li"><a href="#">FAQ</a></li>
+          <li class="row-li"><a href="#">T&C</a></li>
+          <li class="row-li"><a href="#">Terms Of Use</a></li>
+          <li class="row-li"><a href="#">Track Orders</a></li>
+          <li class="row-li"><a href="#">Shipping</a></li>
+          <li class="row-li"><a href="#">Cancellation</a></li>
+          <li class="row-li"><a href="#">Return</a></li>
+          <li class="row-li"><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="row row-3">
+        <h4 class="row-head">
+          100% Original Product
+          <span>gurantee for all products at extram.com</span>
+        </h4>
+        <h4 class="row-head">
+          Return within 30days <span>of receiving your order</span>
+        </h4>
+        <div class="col">
+          <p>&copy; extram.com 2023</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

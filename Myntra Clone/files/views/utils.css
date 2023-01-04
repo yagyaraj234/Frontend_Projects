@@ -1,0 +1,54 @@
+.flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.f-direction{
+    flex-direction: row;
+    justify-content: center;
+}
+.grid-text{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.item{
+    list-style: none;
+    padding: 1rem 10px 1rem 10px;
+}
+
+.item:hover{
+    /* color: red; */
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 1.8rem;
+    /* text-size-adjust: 2px; */
+}
+.space-between{
+    justify-content: space-between;
+}
+.section{
+
+    padding: 2rem;
+    background: rgb(248, 247, 247);
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.f-size{
+    font-size: .85rem;
+}
+.t-none{
+    text-decoration: none;
+}
+.text-align{
+    text-align: center;
+}
+
+.m{
+    margin: 2rem 0;
+}

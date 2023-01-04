@@ -1,0 +1,15 @@
+{
+  "name": "myntra-clone",
+  "version": "1.0.0",
+  "description": "CLone of Myntra Web Application",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yagyaraj lodhi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}
