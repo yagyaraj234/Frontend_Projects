@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #c0b5c0d0;
+    color: #624561;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    justify-content: space-between;
+    /* position: fixed; */
+    background-color: #624561;
+    color: red;
+    
+}
+header ul {
+    display: flex;
+    /* position: fixed; */
+    /* left: 65%; */
+}
+header ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 1.3rem .5rem;
+    color: black;
+
+}
+#home{
+    display: grid;
+    grid-template-columns:50% auto;
+}
+.intro{
+    padding: 8rem 2rem 10rem
+    6rem;
+}
+.home-img{
+    /* background: yellow; */
+    /* height: 60vh;
+    width: 55vw; */
+}
+
+h1{
+    font-size: 5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+}
+button{
+    padding: .6rem 1.2rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #fa6801;
+}
+button:hover{
+    transition: 0.5s;   
+    background: #fcc92c;
+}
+.btn2{
+    margin-left: 1rem;
+}
+
+
+/* ------------------ Project Section ------------------------ */
+
+#service{
+    text-align: center;
+    margin: 1rem 0;
+}
+.service{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    padding: 0 6rem;
+}
+
+
+#service1{
+    background: red;
+    /* width: 30vw; */
+    height: 40vh;
+}
+#service2{
+    background: yellow;
+    height: 40vh;
+}
+#service3{
+    background: green;
+    height: 40vh;
+}
+#service4{
+    background: gray;
+    height: 40vh;
+}
+#service5{
+    background: orange;
+    height: 40vh;
+}
+#service6{
+    background: lemonchiffon;
+    height: 40vh;
+}
+
+
+.service-img{
+    border-radius: 5px;
+}
